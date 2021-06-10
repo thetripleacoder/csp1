@@ -10,12 +10,13 @@
 	<link rel="stylesheet" href="index.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
-	<div class="container-fluid p-0">
+	<div class="container-fluid p-0 m-0">
 		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-		  <a class="navbar-brand" href="#">AAA</a>
+		<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+		<a class="navbar-brand" href="#">AAA</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -32,69 +33,71 @@
 		        <a class="nav-link" href="#projects">Projects</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#contacts">Contacts</a>
+		        <a class="nav-link" href="#contact">Contact</a>
 		      </li>
 		    </ul>
 		  </div>
 		</nav>
 
 		<!-- Jumbotron -->
-		<div class="jumbotron vw-100 vh-100 d-flex">
+		<div class="jumbotron jumbotron-fluid vw-100 vh-100 d-flex" id="jumbotron">
 			<div class="container text-center align-self-center">
 				<h1>Hi! I'm Aldous Aldwin Alde</h1>      
-				<h3>Full Stack Web Developer</h3>
+				<h2>Full Stack Web Developer</h2>
 			</div>
 		</div>
 
 		<!-- About Me -->
-		<div class="d-flex flex-wrap justify-content-center vw-100 vh-100" id="about">
+		<div class="d-flex flex-wrap justify-content-center vh-100" id="about">
 			<div class="text-center col-sm-12 col-md-8 align-self-center">
-					<h4 class=" py-1">About Me</h4>
-
-					<div class="row">
-						<div class="col-sm-12 col-md-6 order-md-2">
-							<img src="profile.jpg" class="img-fluid rounded-circle " width="50%" alt="" >
-						</div>
-						<div class="col-sm-12 col-md-6 order-md-1">
-							<p class="text-justify px-5 py-3">I am a Full Stack Web Developer and currently seeking job opportunities where I can showcase my technical skills as well as my creativity. I am also honing my skills and passion in video editing. Aside from those, I also enjoy playing computer and mobile games, watching series and movies.</p>
-						</div>
+				<h4>About Me</h4>
+				<div class="row" id="about-me">
+					<div class="col-sm-12 col-md-6 order-md-2">
+						<img src="profile.jpg" class="img-fluid rounded-circle " width="50%" alt="" >
 					</div>
-
-				<div>
-					<h4 class="text-center">Tools</h4>
-						<img src="images/logo-html.png" width="80">
-					
-						<img src="images/logo-css.png" width="80">
-
-						<img src="images/logo-js.png" width="80">
-
-						<img src="images/logo-mongodb.png" width="80">
-
-						<img src="images/logo-nodejs.png" width="80">
-
-						<img src="images/logo-express.png" width="80">
-
-						<img src="images/logo-react.png" width="80" >
-
-						<img src="images/logo-heroku.png" width="80">
-
-						<img src="images/logo-git.png" width="80">
-
-						<img src="images/logo-sublime.png" width="80">
-
-						<img src="images/logo-postman.png" width="80">
-
-						<img src="images/logo-cicd.png" width="80">	
+					<div class="col-sm-12 col-md-6 order-md-1">
+						<p class="text-justify px-5 py-3">I am a Full Stack Web Developer and currently seeking job opportunities where I can showcase my technical skills as well as my creativity. I am also honing my skills and passion in video editing. Aside from those, I also enjoy playing computer and mobile games, watching series and movies.</p>
+					</div>
 				</div>
 			</div>
+			<div class="text-center" id="tools">
+				
+				<div  id="tools-images">
+					<h4>Tools</h4>
+					<img src="images/logo-html.png" width="80">
+				
+					<img src="images/logo-css.png" width="80">
+
+					<img src="images/logo-js.png" width="80">
+
+					<img src="images/logo-mongodb.png" width="80">
+
+					<img src="images/logo-nodejs.png" width="80">
+
+					<img src="images/logo-express.png" width="80">
+
+					<img src="images/logo-react.png" width="80" >
+
+					<img src="images/logo-heroku.png" width="80">
+
+					<img src="images/logo-git.png" width="80">
+
+					<img src="images/logo-sublime.png" width="80">
+
+					<img src="images/logo-postman.png" width="80">
+
+					<img src="images/logo-cicd.png" width="80">	
+				</div>
+			</div>
+			
 		</div>
 
 		<!-- Projects -->
-		<div class="d-flex flex-wrap justify-content-center vw-100 vh-100" id="projects">
+		<div class="d-flex flex-wrap justify-content-center vh-100" id="projects">
 			<div class="col-sm-12 col-md-8 align-self-center">
 				<h4 class="text-center">Projects</h4>
 				<div class="row">
-					<div class="card col-sm-12 col-md-4" style="width: 18rem;">
+					<div class="card col-xs-12 col-md-4" style="width: 18rem;">
 					  <img class="card-img-top" src="..." alt="Card image cap">
 					  <div class="card-body">
 					  	<h5>Web API (Ecommerce)</h5>
@@ -119,8 +122,8 @@
 			</div>	
 		</div>
 
-		<!-- Contacts -->
-		<div class="d-flex justify-content-center vw-100 vh-100" id="contacts">
+		<!-- Contact -->
+		<div class="d-flex flex-wrap justify-content-center  vh-100" id="contact">
 			<div class=" col-sm-12 col-md-8 align-self-center">
 				<h4 class="text-center">Contact</h4>
 				<div class="row">
@@ -150,8 +153,29 @@
 			</div>
 		</div>
 
-		
+		<!-- Footer -->
+		<footer class="d-flex flex-wrap justify-content-center mt-5" id="footer">
+			<div class="col-sm-12 col-md-8">
 
+				<div class="row justify-content-center ">
+					<a class="btn btn-outline-secondary rounded-circle" href="https://www.linkedin.com/in/aldous-aldwin-alde/" role="button" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+					<a class="btn btn-outline-secondary rounded-circle" href="mailto:alde.aldous@gmail.com" role="button" target="_blank"><i class="far fa-envelope"></i></a>				
+				</div>
+				
+				<div class="row justify-content-center">
+					<a href="#">Home</a>
+					<a href="#about">About Me</a>
+					<a href="#projects">Projects</a>
+					<a href="#contact">Contact</a>
+				</div>
+				<div class="row justify-content-center">
+					<span > &copy 2021 Aldous Aldwin Alde. All rights reserved. </span>
+				</div>
+						
+			</div>
+			
+
+		</footer>
 
 
 	</div>

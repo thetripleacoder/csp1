@@ -9,3 +9,35 @@ body {
 	font-family: font-family: 'Montserrat', sans-serif;
 }
 
+nav {
+	background-color: white;
+}
+
+#jumbotron {
+	background-image: url("paper.jpg");
+}
+
+#about {
+	background-color: ;
+}
+
+#tools {
+	width: 100%;
+
+	background-color: lightyellow;
+}
+
+#tools-images {
+	position: relative;
+	margin: 0 auto;
+}
+
+#footer {
+	background-color: ;
+	border-top: 1px solid black;
+}
+
+#footer a {
+	margin: 1rem;
+}
+
