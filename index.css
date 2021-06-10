@@ -32,28 +32,44 @@ nav {
   padding: 6rem;
   text-decoration: underline;
 }
-
-.section-content {
-  margin-bottom: 5rem;
-}
-.section-content-contact {
-  margin-bottom: 3rem;
-}
-#contact {
-  background-color: rgb(238, 238, 238);
-}
-#contact form {
-  background-color: white;
-  padding: 3rem 2rem;
-}
 #projects {
   border-top: 5px dashed black;
   background-color: white;
 }
 .project-cards {
-  padding-bottom: 15rem;
+  margin-top: 5rem;
+  margin-bottom: 15rem;
 }
-
+.section-content {
+  margin-bottom: 5rem;
+}
+.section-content-contact {
+  margin-bottom: 5rem;
+}
+#contact {
+  background-color: rgba(0, 35, 44, 0.89);
+}
+#contact h3 {
+  color: white;
+  text-decoration: underline;
+}
+#contact form {
+  background-color: white;
+  padding: 3rem 2rem;
+  margin-bottom: 2rem;
+}
+#contact iframe {
+  margin-top: 2rem;
+}
+.div-form {
+  margin-top: 1rem;
+}
+#survey-form label,
+#survey-form input,
+#survey-form textarea {
+  display: block;
+  width: 100%;
+}
 #footer {
   background-color: white;
 }
