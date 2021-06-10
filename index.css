@@ -1,43 +1,64 @@
-
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	font-family: font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  background-image: url("paper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 nav {
-	background-color: white;
+  background-color: white;
 }
 
 #jumbotron {
-	background-image: url("paper.jpg");
+  background: 0;
 }
-
 #about {
-	background-color: ;
+  background-color: white;
 }
-
 #tools {
-	width: 100%;
-
-	background-color: lightyellow;
+  background-color: rgba(0, 66, 82, 0.452);
+  padding: 3rem 0;
 }
 
-#tools-images {
-	position: relative;
-	margin: 0 auto;
+.section-title {
+  width: 100%;
+  padding: 6rem;
+  text-decoration: underline;
+}
+
+.section-content {
+  margin-bottom: 5rem;
+}
+.section-content-contact {
+  margin-bottom: 3rem;
+}
+#contact {
+  background-color: rgb(238, 238, 238);
+}
+#contact form {
+  background-color: white;
+  padding: 3rem 2rem;
+}
+#projects {
+  border-top: 5px dashed black;
+  background-color: white;
+}
+.project-cards {
+  padding-bottom: 15rem;
 }
 
 #footer {
-	background-color: ;
-	border-top: 1px solid black;
+  background-color: white;
 }
 
-#footer a {
-	margin: 1rem;
+#footer a,
+#footer span {
+  margin: 1rem;
 }
-
