@@ -6,10 +6,11 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: url("paper.jpg");
+  background-image: url("paper-new.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
 }
 
 nav {
