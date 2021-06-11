@@ -60,6 +60,7 @@ nav {
 }
 #contact iframe {
   margin-top: 2rem;
+  border: 0;
 }
 .div-form {
   margin-top: 1rem;
