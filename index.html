@@ -84,16 +84,16 @@
         <div class="d-flex flex-wrap justify-content-center">
           <div class="text-center col-sm-12 col-lg-8">
             <div class="row section-content">
-              <div class="col-sm-12 col-md-6 order-md-2 align-self-center">
+              <div class="col-sm-12 col-md-5 order-md-2 align-self-center">
                 <img
                   src="profile.jpg"
                   class="img-fluid rounded-circle"
-                  width="75%"
+                  width="60%"
                   alt=""
                 />
               </div>
-              <div class="col-sm-12 col-md-6 order-md-1 align-self-center">
-                <p class="text-justify px-5 py-3">
+              <div class="col-sm-12 col-md-7 order-md-1 align-self-center">
+                <p class="text-center px-5 py-3">
                   I am a Full Stack Web Developer and currently seeking job
                   opportunities where I can showcase my technical skills as well
                   as my creativity. I am also honing my skills and passion in
@@ -106,7 +106,7 @@
         </div>
       </div>
       <div class="text-center align-self-center" id="tools">
-        <h4>Tools</h4>
+        <h3>Tools</h3>
         <div id="tools-logos">
           <img src="images/logo-html.png" width="80" />
 
@@ -142,23 +142,32 @@
         <div class="d-flex flex-wrap justify-content-center">
           <div class="col-sm-12 col-lg-8 text-center project-cards">
             <div class="row">
-              <div class="col-xs-12 col-md-4">
-                <a href="https://aldous-alde.github.io/csp1/" target="_blank"
-                  ><img class="img-fluid" src="capstone.jpg"
-                /></a>
-                <div>
-                  <h5>Capstone Project 1</h5>
-                  <p>Developer Portfolio</p>
+              <div class="col-xs-12 col-lg-8">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="capstone.jpg"
+                    alt="Card image"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Capstone Project 1</h4>
+                    <p class="card-text">Developer Portfolio</p>
+                    <a
+                      href="https://aldous-alde.github.io/csp1/"
+                      class="btn btn-primary"
+                      >See Project</a
+                    >
+                  </div>
                 </div>
               </div>
-              <div class="col-xs-12 col-md-4">
+
+              <div class="col-xs-12 col-lg-4">
                 <img class="img-fluid" src="project.jpg" />
                 <div>
                   <h5>Capstone Project 2</h5>
                   <p>Still in progress...</p>
                 </div>
-              </div>
-              <div class="col-xs-12 col-md-4">
+
                 <img class="img-fluid" src="project.jpg" />
                 <div>
                   <h5>Capstone Project 3</h5>
@@ -177,53 +186,48 @@
         </div>
         <div class="d-flex flex-wrap justify-content-center">
           <div class="col-sm-12 col-lg-8">
-            <div class="row section-content-contact">
-              <form
-                action="/sampleserver.com"
-                class="col-sm-12 col-md-6"
-                id="survey-form"
-              >
-                <div class="div-form">
-                  <label for="name">Name</label>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Enter your name"
-                    required
-                  />
-                </div>
-                <div class="div-form">
-                  <label for="email">Email Address</label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Enter your email address"
-                    required
-                  />
-                </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 contact-content">
+                <form action="/sampleserver.com" id="survey-form">
+                  <div class="div-form">
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Enter your name"
+                      required
+                    />
+                  </div>
+                  <div class="div-form">
+                    <label for="email">Email Address</label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Enter your email address"
+                      required
+                    />
+                  </div>
 
-                <div class="div-form">
-                  <label for="comment">Message</label>
-                  <textarea
-                    name="message"
-                    id="message"
-                    cols="30"
-                    rows="10"
-                    placeholder="Enter your message here..."
-                  ></textarea>
-                </div>
-                <div class="div-form">
-                  <input type="submit" id="submit" />
-                </div>
-              </form>
-
-              <div class="col-sm-12 col-md-6">
+                  <div class="div-form">
+                    <label for="comment">Message</label>
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="10"
+                      placeholder="Enter your message here..."
+                    ></textarea>
+                  </div>
+                  <div class="div-form">
+                    <input type="submit" id="submit" />
+                  </div>
+                </form>
+              </div>
+              <div class="col-sm-12 col-md-6 contact-content">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251188.63236618077!2d123.54416910214835!3d10.356083018712273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a972ea07076fd7%3A0x110ff6cf2b076330!2sToledo%20City%2C%20Cebu!5e0!3m2!1sen!2sph!4v1623313493008!5m2!1sen!2sph"
-                  width="100%"
-                  height="100%"
                   allowfullscreen=""
                   loading="lazy"
                 ></iframe>
